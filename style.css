@@ -1,9 +1,15 @@
-@charset "UTF8"
-/*  */
+:root{
+    size: 10px;
+}
+
 .white{
     color: #ffffff;
 }
 .img{
     width:  350px;
     height: 300px;
+}
+p.quienes-somos{
+    text-align: center;
+    size: 10rem;
 }
