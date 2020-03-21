@@ -1,11 +1,12 @@
 :root{
     size: 10px;
-    --white: whitesmoke;
+    --texto: whitesmoke;
+    /* --negro: #03518a; */
     --negro: black;
 }
 
 .white{
-    color: var(--white);
+    color: var(--texto);
 }
 .img{
     width:  350px;
@@ -21,18 +22,22 @@
 
 body {
     background-color: var(--negro);
-    color: var(--white);
+    color: var(--texto);
+}
+
+.nav-item {
+    color: var(--texto);
 }
 
 a.nav-link {
-    color: var(--white) !important;
+    color: var(--texto) !important;
 }
 
 .quienes-somos{
     display: flex;
-    justify-content: left;
-    align-items: left;
-    align-content: left;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
 }
 
 .quienes-somos-item {
@@ -47,5 +52,24 @@ br.mitad-espacio {
 .titulo {
     text-align: center;
     padding-bottom: 2.50px;
-    padding-top: 1.50   px;
+    padding-top: 1.50px;
+    /* padding-left: 700px; */
 }
+
+.quienes-somos-titulo {
+    color: var(--texto);
+}
+
+/* Scrollbar */
+body::-webkit-scrollbar {
+    width: 1em;
+  }
+   
+  body::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.3);
+  }
+   
+  body::-webkit-scrollbar-thumb {
+    background-color: darkgrey;
+    outline: 1px solid slategrey;
+  }
