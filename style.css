@@ -17,6 +17,14 @@
 
 /* Parte del texto de quienes somos: */
 
+body {
+    background-color: black;
+    color: white;
+}
+
+a.nav-link {
+    color: whitesmoke !important;
+}
 
 .quienes-somos{
     display: flex;
