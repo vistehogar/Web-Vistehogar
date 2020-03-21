@@ -1,9 +1,11 @@
 :root{
     size: 10px;
+    --white: whitesmoke;
+    --negro: black;
 }
 
 .white{
-    color: #ffffff;
+    color: var(--white);
 }
 .img{
     width:  350px;
@@ -18,12 +20,12 @@
 /* Parte del texto de quienes somos: */
 
 body {
-    background-color: black;
-    color: white;
+    background-color: var(--negro);
+    color: var(--white);
 }
 
 a.nav-link {
-    color: whitesmoke !important;
+    color: var(--white) !important;
 }
 
 .quienes-somos{
