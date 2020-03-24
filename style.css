@@ -4,6 +4,7 @@
     --texto-hover: #B6B1B1;
     --negro: #313131;
     /* --negro: black; */
+    --fondo-scroll: darkgrey;
 }
 
 .white{
@@ -34,49 +35,45 @@ a.nav-link {
     color: var(--texto) !important;
 }
 
-.quienes-somos{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-}
 
-.quienes-somos-item {
-    text-align: left;
-    padding-left: 2rem;
-
-}
 
 br.mitad-espacio {
     height: 0.25px;
 }
 .titulo {
     text-align: center;
-    padding-bottom: 2.50px;
+    padding-bottom: 0.50px;
     padding-top: 1.50px;
-    /* padding-left: 700px; */
+    font-size: 3rem;
 }
 
 .quienes-somos-titulo {
     color: var(--texto);
 }
 
+.quienes-somos-texto {
+    text-align: left;
+    padding-left: 2rem;
+    font-size: 1.25rem;
+}
+
+
 /* Scrollbar */
 body::-webkit-scrollbar {
     width: 1em;
-  }
+}
    
   body::-webkit-scrollbar-track {
     box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.3);
   }
    
   body::-webkit-scrollbar-thumb {
-    background-color: darkgrey;
+    background-color: var(--fondo-scroll);
     outline: 1px solid slategrey;
   }
 
 
-/* Nav code  using flexbox*/
+/* Navegacion codigo usando flexbox*/
 
 .nav{
     box-sizing: border-box;
