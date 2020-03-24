@@ -1,8 +1,9 @@
 :root{
     size: 10px;
     --texto: whitesmoke;
-    /* --negro: #03518a; */
-    --negro: black;
+    --texto-hover: #B6B1B1;
+    --negro: #313131;
+    /* --negro: black; */
 }
 
 .white{
@@ -43,7 +44,7 @@ a.nav-link {
 .quienes-somos-item {
     text-align: left;
     padding-left: 2rem;
-    width: 1000px;
+
 }
 
 br.mitad-espacio {
@@ -73,3 +74,41 @@ body::-webkit-scrollbar {
     background-color: darkgrey;
     outline: 1px solid slategrey;
   }
+
+
+/* Nav code  using flexbox*/
+
+.nav{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-parent {
+    height: 10vh;
+    display: flex;
+    align-items: flex-start;
+    justify-content: start;
+
+}
+
+.nav-item {
+    padding: 1rem;
+}
+
+.nav-item > a {
+    text-decoration: none;
+    color: var(--texto);
+}
+
+.nav-item > a:hover {
+    color: var(--texto-hover);
+}
+
+.nav-info {
+    padding-left: 2rem;
+}
+
+.nav-parent>.nav-info {
+    padding-right: 2rem;
+}
