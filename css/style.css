@@ -10,6 +10,7 @@
 .white {
   color: var(--texto);
 }
+
 .img {
   width: 350px;
   height: 300px;
@@ -21,7 +22,6 @@
 }
 
 /* Parte del texto de quienes somos: */
-
 body {
   background-color: var(--negro);
   color: var(--texto);
@@ -31,13 +31,18 @@ body {
   color: var(--texto);
 }
 
+.nav-item a:first-child {
+  padding: 1rem;
+}
+
 a.nav-link {
-  color: var(--texto) !important;
+  color: var(--texto);
 }
 
 br.mitad-espacio {
   height: 0.25px;
 }
+
 .titulo {
   text-align: center;
   padding-bottom: 0.5px;
@@ -61,7 +66,8 @@ body::-webkit-scrollbar {
 }
 
 body::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.3);
+          box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.3);
 }
 
 body::-webkit-scrollbar-thumb {
@@ -70,18 +76,25 @@ body::-webkit-scrollbar-thumb {
 }
 
 /* Navegacion codigo usando flexbox*/
-
 .nav {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
 .nav-parent {
   height: 10vh;
+  width: 99rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: flex-start;
-  justify-content: start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
 }
 
 .nav-item {
@@ -104,3 +117,24 @@ body::-webkit-scrollbar-thumb {
 .nav-parent > .nav-info {
   padding-right: 2rem;
 }
+
+@media screen and (max-width: 768px) {
+  .nav {
+    size: 20%;
+  }
+  .nav-parent {
+    margin-right: 0rem;
+  }
+  .quienes-somos-texto {
+    font-size: medium;
+    font-family: "Courier New", Courier, monospace;
+  }
+  .quienes-somos-titulo {
+    font-family: "Courier New", Courier, monospace;
+  }
+  .quienes-somos-titulo,
+  .quienes-somos-texto {
+    size: 80%;
+  }
+}
+/*# sourceMappingURL=style.css.map */
