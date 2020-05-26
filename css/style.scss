@@ -17,7 +17,8 @@
 }
 
 .Container-img {
-  padding-left: 55px;
+  padding-left: 4rem;
+  padding-right: 4rem;
 }
 
 /* Parte del texto de quienes somos: */
@@ -45,17 +46,17 @@ br.mitad-espacio {
   text-align: center;
   padding-bottom: 0.5px;
   padding-top: 1.5px;
-  font-size: 3rem;
 }
 
 .quienes-somos-titulo {
   color: var(--texto);
+  font-size: 4rem !important;
 }
 
 .quienes-somos-texto {
   text-align: left;
   padding-left: 2rem;
-  font-size: 1.25rem;
+  font-size: 1.25rem !important;
 }
 
 /* Scrollbar */
