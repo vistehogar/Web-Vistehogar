@@ -97,18 +97,22 @@ body::-webkit-scrollbar-thumb {
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: start;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
 }
 
 .nav-item {
   padding: 1rem;
 }
 
-.nav-item > a {
+.nav-item a {
   text-decoration: none;
   color: var(--texto);
 }
 
-.nav-item > a:hover {
+.nav-item a:hover {
   color: var(--texto-hover);
 }
 

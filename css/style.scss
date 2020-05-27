@@ -10,6 +10,7 @@
 .white {
   color: var(--texto);
 }
+
 .img {
   width: 21.875rem;
   height: 18.75rem;
@@ -88,19 +89,18 @@ body::-webkit-scrollbar-thumb {
   display: flex;
   align-items: flex-start;
   justify-content: start;
+  flex-direction: row;
 }
 
 .nav-item {
   padding: 1rem;
-}
-
-.nav-item > a {
-  text-decoration: none;
-  color: var(--texto);
-}
-
-.nav-item > a:hover {
-  color: var(--texto-hover);
+  & a {
+    text-decoration: none;
+    color: var(--texto);
+    &:hover {
+      color: var(--texto-hover);
+    }
+  }
 }
 
 .nav-info {
