@@ -102,6 +102,13 @@ body::-webkit-scrollbar-thumb {
     }
   }
 }
+.link {
+  text-decoration: underline;
+  color: var(--texto);
+  &:hover {
+    color: var(--texto-hover);
+  }
+}
 
 .nav-info {
   padding-left: 2rem;

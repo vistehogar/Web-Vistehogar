@@ -116,6 +116,15 @@ body::-webkit-scrollbar-thumb {
   color: var(--texto-hover);
 }
 
+.link {
+  text-decoration: underline;
+  color: var(--texto);
+}
+
+.link:hover {
+  color: var(--texto-hover);
+}
+
 .nav-info {
   padding-left: 2rem;
 }
