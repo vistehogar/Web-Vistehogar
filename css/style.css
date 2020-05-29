@@ -34,7 +34,7 @@ body {
 }
 
 .nav-item a:first-child {
-  padding: 1rem;
+  padding: 0.05, rem;
 }
 
 a.nav-link {
@@ -131,6 +131,13 @@ body::-webkit-scrollbar-thumb {
 
 .nav-parent > .nav-info {
   padding-right: 2rem;
+}
+
+.covid-19-video {
+  border-radius: 1rem;
+  position: relative;
+  height: 230px;
+  width: 400px;
 }
 
 @media screen and (max-width: 768px) {
