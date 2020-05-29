@@ -137,6 +137,12 @@ body::-webkit-scrollbar-thumb {
   .nav-parent {
     margin-right: 0rem;
   }
+  .quienes-somos-titulo {
+    font-size: 100%;
+  }
+  .quienes-somos-texto {
+    font-size: 90%;
+  }
 }
 
 .quienes-somos-texto {
