@@ -136,9 +136,26 @@ body::-webkit-scrollbar-thumb {
 @media screen and (max-width: 768px) {
   .nav-parent {
     margin-right: 0rem;
+    height: auto;
+    position: static;
+    font-size: x-large;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
   }
   .quienes-somos-titulo {
     font-size: 100%;
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    height: max-content;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-line-pack: center;
+        align-content: center;
   }
   .quienes-somos-texto {
     font-size: 90%;
