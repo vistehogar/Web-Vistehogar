@@ -34,7 +34,7 @@ body {
 }
 
 .nav-item a:first-child {
-  padding: 0.05, rem;
+  padding: 0.05rem;
 }
 
 a.nav-link {
@@ -149,6 +149,7 @@ body::-webkit-scrollbar-thumb {
     width: -webkit-fit-content;
     width: -moz-fit-content;
     width: fit-content;
+    padding: 0.5rem;
   }
   .quienes-somos-titulo {
     font-size: 100%;

@@ -33,7 +33,7 @@ body {
 .nav-item {
   color: var(--texto);
   & a:first-child {
-    padding: 0.05, rem;
+    padding: 0.05rem;
   }
 }
 
@@ -130,6 +130,7 @@ body::-webkit-scrollbar-thumb {
     position: static;
     font-size: x-large;
     width: fit-content;
+    padding: 0.5rem;
   }
   .quienes-somos-titulo {
     font-size: 100%;
