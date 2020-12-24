@@ -179,4 +179,16 @@ body::-webkit-scrollbar-thumb {
   font-family: "Courier New", Courier, monospace;
   font-size: 80%;
 }
-/*# sourceMappingURL=style.css.map */
+
+#navidad {
+  color: #EA6650;
+  text-align: center;
+}
+
+#navidad h1 {
+  font-size: 5rem;
+}
+
+#navidad p {
+  font-size: 3rem;
+}
